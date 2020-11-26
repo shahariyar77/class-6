@@ -1,0 +1,108 @@
+/*
+Basic Information:
+--------------------
+
+Project Name   	:	NGH school Template
+Author       	: 	NGH school
+Our Site 		: 	https://youthenlight.com
+Description 	: 	This is html5 School template
+Developed By 	: 	Mahbubul Haq
+Phone           :   01515672069
+
+
+-----------------------------------------------------------------------------------*/
+/*================== 1. Start Template Common CSS ===============*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    color: #787978;
+}
+.section-padding{
+	padding: 80px 0;
+}
+.section-tittle {
+	text-align: center;
+	margin-bottom: 50px;
+}
+h1,h2,h3,h4,h5,h6,h7{
+	color: #333;
+}
+.section-tittle h2 span{
+	color: #2fa55e;
+}
+.single-pricing-box {
+	border: 1px solid#ddd;
+	padding: 32px;
+	text-align: center;
+}
+.single-pricing-box h3{
+	text-transform: uppercase;
+}
+.pricing-icon {
+	font-size: 60px;
+	margin-bottom: 20px;
+	transition: 0.3s;
+}
+.pricing-icon:hover{
+	color: #2fa55e;
+}
+.pricing-list ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 4px;
+	line-height: 24px;
+}
+.pricing-list ul li::before{
+	font-family: fontAwesome;
+	content:"\f00c";
+	color: #2fa55e;
+	padding-right: 13px;
+}
+.pricing-list ul li{
+	transition: 0.2s;
+}
+.pricing-list ul li:hover{
+	padding-left: 2px;
+}
+.pricing-list ul li.off::before{
+	content:"\f00d";
+	color: #eb3036;
+}
+
+.pricing-list {
+	text-align: left;
+	margin-bottom: 23px;
+}
+.single-pricing-box h3.pricing-count {
+	text-transform: none;
+}
+.single-pricing-box{
+	transition: 0.2s;
+}
+.single-pricing-box:hover{
+	border-color: #2fa55e;
+	box-shadow: 0 0 0 solid#f1f1f1;
+}
+a.boder-btn {
+	display: inline-block;
+	border: 1px solid #2fa55e;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: #333;
+	transition: 0.5s;
+	text-decoration: none;
+}
+a.boder-btn:hover{
+	background: #2fa55e;
+	color: #fafafa;
+}
+/*========================   Nav manu ==================*/
+
+
+
+
+
+
+
